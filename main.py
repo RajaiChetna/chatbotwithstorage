@@ -12,7 +12,7 @@ app = FastAPI() #handle HTTP requests
 conn = psycopg2.connect(
     dbname="chatbot_db", 
     user="postgres", 
-    password="chet1212", 
+    password="yourpwd", 
     host="localhost", 
     port="5432"
 )
